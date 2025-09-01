@@ -1,0 +1,27 @@
+{
+  "name": "fixme",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "format": "npx prettier --write .",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "glob": "^11.0.1",
+    "typescript": "^5.8.3",
+    "@vitest/ui": "^3.2.4",
+    "vitest": "^3.2.4"
+
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3"
+  }
+}
