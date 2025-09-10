@@ -30,6 +30,6 @@ GoFのデザインパターン学習用リポジトリ
 ## PREPARING
 
 ```bash
-cd GOF_design_patterns
+cd GoF_design_patterns
 yarn install
 ```
