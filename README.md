@@ -14,6 +14,7 @@
 ## ABOUT
 
 GoFのデザインパターン学習用リポジトリ
+[Javaで学ぶデザインパターン入門第3版](https://www.hyuki.com/dp/)を参考にnode.jsで再実装したソースコードを含んでいます。
 
 [チェックリスト](./todo.md)
 
@@ -21,12 +22,14 @@ GoFのデザインパターン学習用リポジトリ
 
 ## ENVIRONMENT
 
+- TypeScript
+- Node.js
+
 ---
 
 ## PREPARING
 
----
-
-## HOW TO USE
-
----
+```bash
+cd GOF_design_patterns
+yarn install
+```

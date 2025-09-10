@@ -6,7 +6,7 @@
 - [ ] Builder
 - [ ] Factory Method
 - [ ] Prototype
-- [ ] Singleton
+- [x] [Singleton](./singleton/)
 
 ## 構造に関するパターン (7個)
 
@@ -14,7 +14,7 @@
 - [ ] Bridge
 - [ ] Composite
 - [ ] Decorator
-- [x] Facade
+- [x] [Facade](./facade/)
 - [ ] Flyweight
 - [ ] Proxy
 

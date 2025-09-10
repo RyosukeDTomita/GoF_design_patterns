@@ -1,12 +1,11 @@
-import { PageMaker } from './pagemaker/page-maker.js';
+import { PageMaker } from "./pagemaker/page-maker.js";
 
 async function main(): Promise<void> {
-    try {
-        await PageMaker.makeWelcomePage('sigma@example.com', 'welcome_sigma.html');
-
-    } catch (error) {
-        console.error('Error in main:', error);
-    }
+  try {
+    await PageMaker.makeWelcomePage("sigma@example.com", "welcome_sigma.html");
+  } catch (error) {
+    console.error("Error in main:", error);
+  }
 }
 
 // ESモジュールでのエントリーポイントチェック
