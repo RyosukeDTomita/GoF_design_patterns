@@ -24,12 +24,19 @@ GoFのデザインパターン学習用リポジトリ
 
 - TypeScript
 - Node.js
+- Java (Node.jsはシングルスレッドの非同期処理モデルのため、マルチスレッドのパターンの実装のため)
 
 ---
 
 ## PREPARING
 
+### node.js
+
 ```bash
 cd GoF_design_patterns
 yarn install
 ```
+
+### Java
+
+[See](https://github.com/RyosukeDTomita/effective-java-3e-source-code/blob/master/initialsettins.md)

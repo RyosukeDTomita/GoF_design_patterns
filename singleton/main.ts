@@ -1,13 +1,21 @@
 import { Singleton } from './Singleton.js';
-import { SingletonEnum } from './SingletonEnum.js';
+import { SingletonLazy } from './SingletonLazy.js';
 
 function main(): void {
-  // 通常のシングルトンの利用例
+  // シングルトン(即時初期化)の利用例
   const instance1 = Singleton.getInstance();
   const instance2 = Singleton.getInstance();
   console.log('Are both instances equal?', instance1 === instance2);
+  console.log('---');
 
-  // NOTE: Enumによるシングルトンはnode.jsでは作れない
+  // シングルトン(遅延初期化)の利用例
+  const instanceLazy1 = SingletonLazy.getInstance();
+  const instanceLazy2 = SingletonLazy.getInstance();
+  console.log('Are both instances equal?', instanceLazy1 === instanceLazy2);
+  // インスタンス変数を編集してみる
+  console.log('edit instance variable');
+  instance1.setWord('TypeScript');
+  console.log('Are both instances equal?', instanceLazy1 === instanceLazy2);
 }
 
 // ESモジュールでのエントリーポイントチェック
