@@ -18,3 +18,6 @@ javac *.java && java Main
 
 - [Eager Initialization (即時初期化)](./Singleton.ts)
 - [Lazy Initialization (遅延初期化)](./SingletonLazy.ts)
+- [Lazy Initialization Synchronized](./SingletonLazySynchronized.java)
+- [Lazy Initalization Double-checked locking](./SingletonLazyDCL.java
+)
