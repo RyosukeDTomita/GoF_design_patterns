@@ -3,7 +3,7 @@
  */
 class Singleton {
   private static singleton: Singleton = new Singleton();
-  private string: word = "World";
+  private word = "World";
   /**
    * constructorはprivateにして、外部からnewできないようにする
    */
@@ -17,11 +17,11 @@ class Singleton {
   }
 
   public setWord(word: string) {
-    this.string = word;
+    this.word = word;
   }
 
   public hello() {
-    console.log(`Hello, ${this.string}!`);
+    console.log(`Hello, ${this.word}!`);
   }
 }
 
