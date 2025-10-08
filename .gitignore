@@ -1,6 +1,9 @@
 /.serena
 yarn.lock
 *.class
+*.js
+*.js.map
+*.d.ts
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
