@@ -16,7 +16,7 @@
 - [ ] Decorator
 - [x] [Facade](./facade/)
 - [ ] Flyweight
-- [ ] Proxy
+- [x] Proxy
 
 ## 振る舞いに関するパターン (11個)
 
@@ -29,5 +29,5 @@
 - [ ] Observer
 - [ ] State
 - [ ] Strategy
-- [ ] Template Method
-- [x] Visitor
+- [x] Template Method
+- [x] [Visitor](./visitor/)

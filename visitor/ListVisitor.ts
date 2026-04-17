@@ -15,9 +15,13 @@ export class ListVisitor extends Visitor {
    */
   visit(entry: File | Directory): void {
     if (entry instanceof File) {
-      console.log(this.currentdir + "/" + entry.getName() + " (" + entry.getSize() + ")");
+      console.log(
+        this.currentdir + "/" + entry.getName() + " (" + entry.getSize() + ")",
+      );
     } else if (entry instanceof Directory) {
-      console.log(this.currentdir + "/" + entry.getName() + " (" + entry.getSize() + ")");
+      console.log(
+        this.currentdir + "/" + entry.getName() + " (" + entry.getSize() + ")",
+      );
       const savedir = this.currentdir;
       this.currentdir = this.currentdir + "/" + entry.getName();
       for (const e of entry) {
